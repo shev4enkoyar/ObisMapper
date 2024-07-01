@@ -5,7 +5,25 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>YD.ObisMapper</PackageId>
+        <Authors>Yaroslav Shevchenko</Authors>
+        <PackageProjectUrl>https://github.com/shev4enkoyar/ObisMapper</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/shev4enkoyar/ObisMapper</RepositoryUrl>
+        <PackageTags>mapping; OBIS; data-transformation; utility</PackageTags>
+        <Description>ObisMapper is a .NET library that provides easy-to-use mappings for OBIS codes to .NET objects.</Description>
+        <NeutralLanguage>en</NeutralLanguage>
+        <Copyright>2024</Copyright>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Title>ObisMapper</Title>
+        <Version>0.0.1</Version>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/"/>
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1"/>
